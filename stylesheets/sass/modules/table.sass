@@ -1,10 +1,12 @@
+@use '../variable' as v
+
 .table
     background: black
-    border: 2px solid #fefefe
+    border: 2px solid v.$background-color
     margin: auto
 
 .cell
-    background: #fefefe
+    background: v.$background-color
     height: 48px
     width: 48px
     cursor: pointer
